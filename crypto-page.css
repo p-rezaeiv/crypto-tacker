@@ -1,0 +1,71 @@
+
+.d-flex {
+    display: flex!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.d-md-flex {
+    display: flex!important;
+}
+body{
+    direction: rtl;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#content{
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+#title {
+    
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+}
+#cryptoName{
+    font-size: 24px;
+}
+
+#cryptoabr{
+    font-size: 16px;
+    color: grey; 
+}
+
+#coinPrice{
+    font-size: 30px;
+    margin-inline-end: 20px;
+}
+#coinPercentChange{
+    font-size: 20px;
+    color: red;
+}
+.btncrypto{
+ margin-right: auto!important;
+
+}
+
+#saleandbuybtn{
+    background-color: chocolate;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#cryptoImage{
+    width: 150px;
+    height: auto;
+}
+#cryptoTitle{
+    display: flex !important;
+    flex-direction: column !important;
+    margin-inline-end: 50px;
+}
+
+
+
