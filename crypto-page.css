@@ -58,8 +58,9 @@ body{
 }
 
 #cryptoImage{
-    width: 150px;
+    width: 64px;
     height: auto;
+    margin-inline-end: 50px;
 }
 #cryptoTitle{
     display: flex !important;
