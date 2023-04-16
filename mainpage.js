@@ -4,7 +4,7 @@ $(() => {
 
     data.data.forEach((e) => {
 
-        const box = $(`<div class="column" style="border:1px solid gray; width:150px; height:300px"></div>`).html(`<p>${e.name}</p>`);
+        const box = $(`<a href="http://localhost:5000?symbol=${e.symbol}"><div class="column" style="border:1px solid gray; width:150px; height:300px"><p>${e.name}</p></div></a>`);
 
 
         $('#myDIV').append(box)
